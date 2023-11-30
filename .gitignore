@@ -41,4 +41,4 @@ package-lock.json
 # Ignore text files
 *.txt
 
-/routes/dashboard.js
+routes/dashboard.js
