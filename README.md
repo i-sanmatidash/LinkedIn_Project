@@ -71,10 +71,10 @@ The application should be accessible at http://localhost:3000/.
 3. **Internship Opportunities:**
 
    - HR representatives can post internship opportunities.
-   - Engineering students can explore and apply for opportunities.
+   - Engineering students can explore for opportunities.
 
-4. **Messaging Feature (Backend):**
-   - Backend groundwork laid for real-time communication.
+4. **Messaging Feature:**
+   - Backend groundwork has been done.
    - Messaging model, routes, and controllers implemented.
 
 ### Technologies Used
@@ -88,7 +88,3 @@ The application should be accessible at http://localhost:3000/.
 - JSON Web Tokens (JWT)
 - dotenv
 - body-parser
-
-```
-
-```
