@@ -1,0 +1,42 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore build and dependency directories
+target/
+build/
+node_modules/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore environment-specific files
+.env
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore Jupyter Notebooks checkpoints
+*.ipynb_checkpoints/
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore package-lock files for npm
+package-lock.json
+
+# Ignore editor backup files
+*~
+# Ignore text files
+*.txt
