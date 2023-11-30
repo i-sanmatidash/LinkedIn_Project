@@ -38,6 +38,6 @@ exports.getInternshipsForEngineering = async (req, res) => {
     res.json({ internships });
   } catch (error) {
     console.error("Error getting internships for engineering students:", error);
-    res.status(500).json({ message: "Internal server error" });
+    res.json({ message: "Internal server error" });
   }
 };
