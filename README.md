@@ -21,19 +21,27 @@ Follow these steps to get the project up and running on your local machine.
 
 2. Navigate to the project directory:
 
-- cd linkedin-system
+```bash
+cd linkedin-system
+```
 
 3. Install dependencies:
 
-- npm install
+```bash
+ npm install
+```
 
 4. Create a .env file in the project root and add your MongoDB connection string:
 
-- MONGODB_URI=your_mongodb_atlas_connection_string
+```bash
+MONGODB_URI=your_mongodb_atlas_connection_string
+```
 
 5. Run the application:
 
-- npm start
+```bash
+npm start
+```
 
 The application should be accessible at http://localhost:3000/.
 
@@ -80,3 +88,7 @@ The application should be accessible at http://localhost:3000/.
 - JSON Web Tokens (JWT)
 - dotenv
 - body-parser
+
+```
+
+```
