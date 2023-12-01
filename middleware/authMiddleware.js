@@ -9,7 +9,7 @@ const authenticateUser = async (req, res, next) => {
 
     const user = await User.findById(decodedToken.userId);
 
-    // Attach user information to the request object
+    //user information to the request object
     req.user = user;
 
     next();
